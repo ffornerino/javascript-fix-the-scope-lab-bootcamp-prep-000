@@ -1,10 +1,9 @@
-var animal = 'dog'
+var animal = 'cat'
 function myAnimal() {
-  animal = 'dog'
+  var animal = 'dog'
   return animal
 }
 
-var animal = 'cat'
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
@@ -28,3 +27,4 @@ var funkyFunction = function() {
 
 var theFunk = funkyFunction();
 theFunk();
+console.log(theFunk)
